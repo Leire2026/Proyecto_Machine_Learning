@@ -1,4 +1,4 @@
-# Proyecto_Machine_Learning
+# Proyecto de Machine Learning:
 
 ## ¿Podemos predecir la satisfacción con la vida? Aplicación de técnicas de Machine Learning a datos de bienestar personal en Euskadi
 
