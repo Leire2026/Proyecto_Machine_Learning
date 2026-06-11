@@ -4,7 +4,7 @@
 
 ## Objetivo del proyecto: 
 
-Analizar los <u>factores que influyen en la satisfacción con la vida de las personas residentes en Euskadi, y construir un modelo capaz de predecir el nivel de satisfacción vital</u> a partir de variables sociodemográficas, económicas y de bienestar personal.  
+Analizar los <u>factores que influyen en la satisfacción con la vida de las personas residentes en Euskadi, y construir un modelo capaz de predecir el nivel de satisfacción vital</u> a partir de variables sociodemográficas, económicas y de bienestar personal.   
 
 
 ## <span style="color:green; font-size:25px; font-weight:bold;"> Fuentes de Información:  </span>
