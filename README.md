@@ -38,5 +38,6 @@ Para ello, los <u>pasos a seguir</u> serán:
 7. Evaluar resultados.
 8. Elegir el  mejor modelo que mejor se ajuste al objetivo.
 9. Interpretar el modelo.
-10. Documentar y presentar el proyecto.
+10. Documentar y presentar el proyecto.  
+
 
