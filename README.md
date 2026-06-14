@@ -41,3 +41,28 @@ Para ello, los <u>pasos a seguir</u> serán:
 10. Documentar y presentar el proyecto.  
 
 
+Tras el análisis de los datos y el proceso de construcción de los diferentes modelos realizado, encontramos que:  
+- Los modelos de regresión permitieron identificar los principales factores asociados a la satisfacción vital. 
+- Los modelos de clasificación evaluaron la capacidad predictiva para identificar individuos con elevados niveles de bienestar.
+- Y el análisis de clustering permitió descubrir perfiles naturales de bienestar dentro de la población analizada.
+
+Esto nos conduce a elegir no uno, sino tres modelos, que responde a tres preguntas distintas:
+
+1. El modelo de Regresión Lineal (sin incluir variables sociodemográficas), que responde a la pregunta: ¿cuáles son los principales factores que explican el estado de bienestar y satisfacción general de la población en Euskadi?
+
+    Y la respuesta es interesante, porque frente a lo que podríamos esperar, no son los elementos materiales y objetivos (como pueden ser la situación económica familiar, la satisfacción con la vivienda o el estado de salud) aquellos a los que las personas confieren más valor a la hora de calibrar el nivel de satisfacción en su vida. Por el contrario los factores a los que las personas conceden más importancia y contribuyen en mayor medida a ese estado de bienestar subjetivo son dos: las relaciones personales y el sentido de la propia vida, la percepción de que lo que hacemos en la vida tiene un sentido (el famoso "ikigai"), aspectos ambos no tangibles que apelan a la parte trascendente e inmaterial de la vida humana.
+
+2. El modelo de clasificación elegido, en este caso, el Random Forest Classifier (en la versión ajustada), que responde a la pregunta: ¿podemos predecir el nivel de bienestar de las personas?
+
+    El modelo destaca por su capacidad predictiva, concretamente por su elevada capacidad para identificar correctamente a los individuos pertenecientes al grupo objetivo, es decir, aquéllos con un elevado nivel de bienestar personal.
+
+    Este modelo se acompaña con la creación de una herramienta en Streamlit para la identificación de personas con bajo o alto nivel de bienestar personal.
+
+3. El modelo no supervisado elegido, esto es, el Cluster kmeans, que responde a la pregunta: ¿podemos segmentar/agrupar la población en función de su nivel de bienestar y satisfacción con la vida?
+
+    El modelo permite separar dos grandes grupos de personas, que encajan con los dos grandes perfiles previamente identificados en los modelos de clasificación. La principal virtud de este modelo es que ha permitido identificar perfiles naturales de bienestar en la población sin utilizar la variable objetivo. Esta segmentación emerge así de manera completamente no supervisada, sin incorporar la variable objetivo utilizada en los modelos de clasificación, hallazgo que aporta evidencia adicional sobre la existencia de dos grandes perfiles de bienestar subjetivo en la población estudiada y refuerza la coherencia de los resultados obtenidos a lo largo del proyecto mediante diferentes aproximaciones analíticas.
+
+
+Tres modelos, tres productos diferentes que permiten plantearse tres alternativas de negocio que podemos dirigir a diferentes públicos: organismos públicos, empresas de gestión de personas, organismos estadísticos, ...
+
+
