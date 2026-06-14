@@ -40,6 +40,7 @@ Para ello, los <u>pasos a seguir</u> serán:
 9. Interpretar el modelo.
 10. Documentar y presentar el proyecto.  
 
+## <span style="color:green; font-size:23px; font-weight:bold;"> Principales conclusiones:  </span> 
 
 Tras el análisis de los datos y el proceso de construcción de los diferentes modelos realizado, encontramos que:  
 - Los modelos de regresión permitieron identificar los principales factores asociados a la satisfacción vital. 
